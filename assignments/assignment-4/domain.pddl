@@ -22,7 +22,7 @@
     (model_function ?m - model ?f - function)
     (required_tokens ?f - function ?t - tokens)
     (maxtokens ?m - model ?t - tokens)
-    (routed ?r)
+    (routed ?r - request)
   )
 
   (:action route_request
